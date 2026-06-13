@@ -8,7 +8,7 @@ Analysis of household energy consumption across 30+ European countries from 2013
 
 | Property | Detail |
 |---|---|
-| Source | Eurostat — Final Consumption, Households (FC_OTH_HH_E) |
+| Source | [Eurostat — Final Consumption, Households (FC_OTH_HH_E)](https://ec.europa.eu/eurostat) |
 | File | `hh_energy_fuel.csv` |
 | Period | 2013 – 2024 (annual) |
 | Countries | 30+ European countries (ISO codes) |
