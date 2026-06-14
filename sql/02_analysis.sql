@@ -192,6 +192,7 @@ with ranking_cte as (
         dense_rank() over (partition by geo order by `2024` desc) as ranking_2024
     from hh_fuel_dupl
     where siec != 'Total' 
+   -- exclude countries with no 2013 baseline data (e.g. BA - Bosnia)
     and geo not in (
        select geo from hh_fuel_dupl 
        where siec = 'Total' and `2013` is null
