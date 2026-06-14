@@ -191,7 +191,11 @@ with ranking_cte as (
         dense_rank() over (partition by geo order by `2013` desc) as ranking_2013,
         dense_rank() over (partition by geo order by `2024` desc) as ranking_2024
     from hh_fuel_dupl
-    where siec != 'Total'
+    where siec != 'Total' 
+    and geo not in (
+       select geo from hh_fuel_dupl 
+       where siec = 'Total' and `2013` is null
+       )
 ),
 cte_2013 as (
     select siec, geo, ranking_2013
