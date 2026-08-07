@@ -61,4 +61,11 @@ Analysis of household energy consumption across 30+ European countries from 2013
 
 ## Tools
 
-- MySQL 8.0
+- MySQL
+
+---
+
+## Related Projects
+
+SQL analysis of the same dataset:
+[eu-household-energy-sql](https://github.com/panagiotisflrs/eurostat-household-energy-PowerBi.git)
