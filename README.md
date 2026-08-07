@@ -68,4 +68,4 @@ Analysis of household energy consumption across 30+ European countries from 2013
 ## Related Projects
 
 SQL analysis of the same dataset:
-[eu-household-energy-sql](https://github.com/panagiotisflrs/eurostat-household-energy-PowerBi.git)
+[eu-household-energy-PowerBI](https://github.com/panagiotisflrs/eurostat-household-energy-PowerBi.git)
